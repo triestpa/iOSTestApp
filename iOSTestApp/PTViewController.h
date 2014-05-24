@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface PTViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *testText;
+- (IBAction)testButton;
 
 @end
